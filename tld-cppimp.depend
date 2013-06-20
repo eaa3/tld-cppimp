@@ -1,0 +1,1420 @@
+# depslib dependency file v1.0
+1347286518 source:c:\users\mano\desktop\tld-cppimp\main.cpp
+	"main_skeleton.h"
+	"detector.h"
+	"trainer.h"
+
+1341269795 c:\opencv\build\include\opencv2\highgui\highgui.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1341269801 c:\opencv\build\include\opencv2\core\core.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/version.hpp"
+	<limits.h>
+	<algorithm>
+	<cmath>
+	<cstddef>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	<sstream>
+	"opencv2/core/operations.hpp"
+	"opencv2/core/mat.hpp"
+
+1341269801 c:\opencv\build\include\opencv2\core\types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+	"tegra_round.hpp"
+	"emmintrin.h"
+
+1341269801 c:\opencv\build\include\opencv2\core\version.hpp
+
+1341269801 c:\opencv\build\include\opencv2\core\operations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	<windows.h>
+	<limits>
+
+1341269801 c:\opencv\build\include\opencv2\core\mat.hpp
+	<limits.h>
+	<string.h>
+
+1341269795 c:\opencv\build\include\opencv2\highgui\highgui_c.h
+	"opencv2/core/core_c.h"
+
+1341269801 c:\opencv\build\include\opencv2\core\core_c.h
+	"opencv2/core/types_c.h"
+
+1341269824 c:\opencv\build\include\opencv2\imgproc\imgproc.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/types_c.h"
+
+1341269824 c:\opencv\build\include\opencv2\imgproc\types_c.h
+	"opencv2/core/core_c.h"
+
+1346678989 c:\users\mano\desktop\tld-cppimp\main_skeleton.h
+	"includes.h"
+	"util.h"
+
+1346853594 c:\users\mano\desktop\tld-cppimp\includes.h
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<iostream>
+	<fstream>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<cmath>
+	<sstream>
+
+1349443421 source:d:\ermano\tld investigation\tld-cppimp\main.cpp
+	"main_skeleton.h"
+	"detector.h"
+	"trainer.h"
+
+1349440189 d:\ermano\tld investigation\tld-cppimp\main_skeleton.h
+	"includes.h"
+	"util.h"
+	"Predator.h"
+
+1349440189 d:\ermano\tld investigation\tld-cppimp\includes.h
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<iostream>
+	<fstream>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<cmath>
+	<sstream>
+	<algorithm>
+
+1338472074 d:\ermano\opencv\build\include\opencv2\highgui\highgui.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1338472083 d:\ermano\opencv\build\include\opencv2\core\core.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/version.hpp"
+	<limits.h>
+	<algorithm>
+	<cmath>
+	<cstddef>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	<sstream>
+	"opencv2/core/operations.hpp"
+	"opencv2/core/mat.hpp"
+
+1338472083 d:\ermano\opencv\build\include\opencv2\core\types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+	"tegra_round.hpp"
+	"emmintrin.h"
+
+1338472083 d:\ermano\opencv\build\include\opencv2\core\version.hpp
+
+1338472083 d:\ermano\opencv\build\include\opencv2\core\operations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	<windows.h>
+	<limits>
+
+1338472083 d:\ermano\opencv\build\include\opencv2\core\mat.hpp
+	<limits.h>
+	<string.h>
+
+1338472074 d:\ermano\opencv\build\include\opencv2\highgui\highgui_c.h
+	"opencv2/core/core_c.h"
+
+1338472083 d:\ermano\opencv\build\include\opencv2\core\core_c.h
+	"opencv2/core/types_c.h"
+
+1338472104 d:\ermano\opencv\build\include\opencv2\imgproc\imgproc.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/types_c.h"
+
+1338472104 d:\ermano\opencv\build\include\opencv2\imgproc\types_c.h
+	"opencv2/core/core_c.h"
+
+1347286348 source:c:\users\mano\desktop\tld-cppimp\util.cpp
+	"util.h"
+
+1346853867 c:\users\mano\desktop\tld-cppimp\util.h
+	"includes.h"
+	"boundingbox.h"
+
+1347020253 source:c:\users\mano\desktop\tld-cppimp\twobitbp.cpp
+	"twobitbp.h"
+
+1346675476 c:\users\mano\desktop\tld-cppimp\twobitbp.h
+	"feature.h"
+
+1346853837 c:\users\mano\desktop\tld-cppimp\feature.h
+	"includes.h"
+	"boundingbox.h"
+	"util.h"
+
+1346674573 source:c:\users\mano\desktop\tld-cppimp\feature.cpp
+	"feature.h"
+
+1349440188 d:\ermano\tld investigation\tld-cppimp\util.h
+	"includes.h"
+	"boundingbox.h"
+
+1348756912 source:d:\ermano\tld investigation\tld-cppimp\twobitbp.cpp
+	"twobitbp.h"
+
+1348142729 d:\ermano\tld investigation\tld-cppimp\twobitbp.h
+	"feature.h"
+
+1348142730 d:\ermano\tld investigation\tld-cppimp\feature.h
+	"includes.h"
+	"boundingbox.h"
+	"util.h"
+
+1348142730 source:d:\ermano\tld investigation\tld-cppimp\feature.cpp
+	"feature.h"
+
+1349440189 source:d:\ermano\tld investigation\tld-cppimp\util.cpp
+	"util.h"
+
+1349443570 source:d:\ermano\tld investigation\tld-cppimp\main_skeleton.cpp
+	"main_skeleton.h"
+
+1346422512 source:d:\ermano\tld investigation\tld-cppimp\src\fern.cpp
+	"fern.h"
+
+1346422512 d:\ermano\tld investigation\tld-cppimp\include\fern.h
+
+1347286566 source:c:\users\mano\desktop\tld-cppimp\main_skeleton.cpp
+	"main_skeleton.h"
+
+1346464079 source:c:\users\mano\desktop\tld-cppimp\src\fern.cpp
+	"fern.h"
+
+1346464078 c:\users\mano\desktop\tld-cppimp\include\fern.h
+
+1348756771 source:d:\ermano\tld investigation\tld-cppimp\fern.cpp
+	"fern.h"
+
+1348756505 d:\ermano\tld investigation\tld-cppimp\fern.h
+	"includes.h"
+	"twobitbp.h"
+
+1349440189 d:\ermano\tld investigation\tld-cppimp\boundingbox.h
+	"includes.h"
+	"normalizedpatch.h"
+
+1349100914 source:d:\ermano\tld investigation\tld-cppimp\boundingbox.cpp
+	"boundingbox.h"
+
+1347286139 c:\users\mano\desktop\tld-cppimp\boundingbox.h
+	"includes.h"
+
+1347286139 source:c:\users\mano\desktop\tld-cppimp\fern.cpp
+	"fern.h"
+
+1346678600 c:\users\mano\desktop\tld-cppimp\fern.h
+	"includes.h"
+	"twobitbp.h"
+
+1347020252 source:c:\users\mano\desktop\tld-cppimp\boundingbox.cpp
+	"boundingbox.h"
+
+1347286139 source:c:\users\mano\desktop\tld-cppimp\classifier.cpp
+	"classifier.h"
+
+1346847105 c:\users\mano\desktop\tld-cppimp\classifier.h
+	"fern.h"
+
+1348142729 source:d:\ermano\tld investigation\tld-cppimp\classifier.cpp
+	"classifier.h"
+
+1348142730 d:\ermano\tld investigation\tld-cppimp\classifier.h
+	"fern.h"
+
+1349440188 source:d:\ermano\tld investigation\tld-cppimp\detector.cpp
+	"detector.h"
+
+1349440189 d:\ermano\tld investigation\tld-cppimp\detector.h
+	<vector>
+	"includes.h"
+	"boundingbox.h"
+	"ffclassifier.h"
+	"nnclassifier.h"
+	"clusterer.h"
+
+1347286139 source:c:\users\mano\desktop\tld-cppimp\detector.cpp
+	"detector.h"
+
+1346853626 c:\users\mano\desktop\tld-cppimp\detector.h
+	<vector>
+	"boundingbox.h"
+	"classifier.h"
+
+1346853814 source:c:\users\mano\desktop\tld-cppimp\tld-cppimp\detector.cpp
+	"detector.h"
+
+1346853626 c:\users\mano\desktop\tld-cppimp\tld-cppimp\detector.h
+	<vector>
+	"boundingbox.h"
+	"classifier.h"
+
+1346853737 c:\users\mano\desktop\tld-cppimp\tld-cppimp\boundingbox.h
+	"includes.h"
+
+1346853594 c:\users\mano\desktop\tld-cppimp\tld-cppimp\includes.h
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<iostream>
+	<fstream>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<cmath>
+	<sstream>
+
+1346847105 c:\users\mano\desktop\tld-cppimp\tld-cppimp\classifier.h
+	"fern.h"
+
+1346678600 c:\users\mano\desktop\tld-cppimp\tld-cppimp\fern.h
+	"includes.h"
+	"twobitbp.h"
+
+1346675476 c:\users\mano\desktop\tld-cppimp\tld-cppimp\twobitbp.h
+	"feature.h"
+
+1346853837 c:\users\mano\desktop\tld-cppimp\tld-cppimp\feature.h
+	"includes.h"
+	"boundingbox.h"
+	"util.h"
+
+1346853867 c:\users\mano\desktop\tld-cppimp\tld-cppimp\util.h
+	"includes.h"
+	"boundingbox.h"
+
+1349440189 source:d:\ermano\tld investigation\tld-cppimp\trainer.cpp
+	"trainer.h"
+
+1348661378 d:\ermano\tld investigation\tld-cppimp\trainer.h
+	"includes.h"
+	"ffclassifier.h"
+
+1347286139 c:\users\mano\desktop\tld-cppimp\trainer.h
+	"includes.h"
+	"classifier.h"
+
+1347286139 source:c:\users\mano\desktop\tld-cppimp\trainer.cpp
+	"trainer.h"
+
+1349093105 source:d:\ermano\tld investigation\tld-cppimp\medianflowtracker.cpp
+	"MedianFlowTracker.h"
+	"fbtrack.h"
+	<cmath>
+
+1336833068 d:\ermano\tld investigation\tld-cppimp\medianflowtracker.h
+	<opencv/cv.h>
+
+1338471976 d:\ermano\opencv\build\include\opencv\cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/video/tracking.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/flann/flann.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/legacy/compat.hpp"
+	"opencv2/core/internal.hpp"
+
+1338472104 d:\ermano\opencv\build\include\opencv2\imgproc\imgproc_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/types_c.h"
+
+1338472115 d:\ermano\opencv\build\include\opencv2\video\tracking.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+
+1338563652 d:\ermano\opencv\build\include\opencv2\features2d\features2d.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+	<limits>
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\miniflann.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/flann/defines.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\defines.h
+	"config.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\config.h
+
+1338472101 d:\ermano\opencv\build\include\opencv2\flann\flann.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/flann/flann_base.hpp"
+	"opencv2/flann/miniflann.hpp"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\flann_base.hpp
+	<vector>
+	<string>
+	<cassert>
+	<cstdio>
+	"general.h"
+	"matrix.h"
+	"params.h"
+	"saving.h"
+	"all_indices.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\general.h
+	"defines.h"
+	<stdexcept>
+	<cassert>
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\matrix.h
+	<stdio.h>
+	"general.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\params.h
+	"any.h"
+	"general.h"
+	<iostream>
+	<map>
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\any.h
+	<stdexcept>
+	<ostream>
+	<typeinfo>
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\saving.h
+	<cstring>
+	<vector>
+	"general.h"
+	"nn_index.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\nn_index.h
+	<string>
+	"general.h"
+	"matrix.h"
+	"result_set.h"
+	"params.h"
+
+1338472101 d:\ermano\opencv\build\include\opencv2\flann\result_set.h
+	<algorithm>
+	<cstring>
+	<iostream>
+	<limits>
+	<set>
+	<vector>
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\all_indices.h
+	"general.h"
+	"nn_index.h"
+	"kdtree_index.h"
+	"kdtree_single_index.h"
+	"kmeans_index.h"
+	"composite_index.h"
+	"linear_index.h"
+	"hierarchical_clustering_index.h"
+	"lsh_index.h"
+	"autotuned_index.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\kdtree_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	"general.h"
+	"nn_index.h"
+	"dynamic_bitset.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1338472101 d:\ermano\opencv\build\include\opencv2\flann\dynamic_bitset.h
+	<boost/dynamic_bitset.hpp>
+	<limits.h>
+	"dist.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\dist.h
+	<cmath>
+	<cstdlib>
+	<string.h>
+	<stdint.h>
+	"defines.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\heap.h
+	<algorithm>
+	<vector>
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\allocator.h
+	<stdlib.h>
+	<stdio.h>
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\random.h
+	<algorithm>
+	<cstdlib>
+	<vector>
+	"general.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\kdtree_single_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	"general.h"
+	"nn_index.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1338472101 d:\ermano\opencv\build\include\opencv2\flann\kmeans_index.h
+	<algorithm>
+	<string>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"general.h"
+	"nn_index.h"
+	"dist.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+	"logger.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\logger.h
+	<stdio.h>
+	<stdarg.h>
+	"defines.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\composite_index.h
+	"general.h"
+	"nn_index.h"
+	"kdtree_index.h"
+	"kmeans_index.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\linear_index.h
+	"general.h"
+	"nn_index.h"
+
+1338472101 d:\ermano\opencv\build\include\opencv2\flann\hierarchical_clustering_index.h
+	<algorithm>
+	<string>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"general.h"
+	"nn_index.h"
+	"dist.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\lsh_index.h
+	<algorithm>
+	<cassert>
+	<cstring>
+	<map>
+	<vector>
+	"general.h"
+	"nn_index.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"lsh_table.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\lsh_table.h
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<limits.h>
+	<unordered_map>
+	<map>
+	<math.h>
+	<stddef.h>
+	"dynamic_bitset.h"
+	"matrix.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\autotuned_index.h
+	"general.h"
+	"nn_index.h"
+	"ground_truth.h"
+	"index_testing.h"
+	"sampling.h"
+	"kdtree_index.h"
+	"kdtree_single_index.h"
+	"kmeans_index.h"
+	"composite_index.h"
+	"linear_index.h"
+	"logger.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\ground_truth.h
+	"dist.h"
+	"matrix.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\index_testing.h
+	<cstring>
+	<cassert>
+	<cmath>
+	"matrix.h"
+	"nn_index.h"
+	"result_set.h"
+	"logger.h"
+	"timer.h"
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\timer.h
+	<time.h>
+
+1338472102 d:\ermano\opencv\build\include\opencv2\flann\sampling.h
+	"matrix.h"
+	"random.h"
+
+1338472107 d:\ermano\opencv\build\include\opencv2\calib3d\calib3d.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/features2d/features2d.hpp"
+
+1338472110 d:\ermano\opencv\build\include\opencv2\objdetect\objdetect.hpp
+	"opencv2/core/core.hpp"
+	<map>
+	<deque>
+
+1338472112 d:\ermano\opencv\build\include\opencv2\legacy\compat.hpp
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/types_c.h"
+	<math.h>
+	<string.h>
+
+1338472083 d:\ermano\opencv\build\include\opencv2\core\internal.hpp
+	<vector>
+	<windows.h>
+	<pthread.h>
+	"ipp.h"
+	"emmintrin.h"
+	"pmmintrin.h"
+	"tmmintrin.h"
+	"arm_neon.h"
+	"tbb/tbb_stddef.h"
+	"tbb/tbb.h"
+	"tbb/task.h"
+	<Eigen/Core>
+	"opencv2/core/eigen.hpp"
+	<malloc.h>
+	<alloca.h>
+	<stdlib.h>
+
+1338472083 d:\ermano\opencv\build\include\opencv2\core\eigen.hpp
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+
+1336833068 d:\ermano\tld investigation\tld-cppimp\mftracker\fbtrack.h
+	<opencv/cv.h>
+
+1349093104 source:d:\ermano\tld investigation\tld-cppimp\mftracker\bb.cpp
+	"bb.h"
+
+1336833068 d:\ermano\tld investigation\tld-cppimp\mftracker\bb.h
+
+1336833068 source:d:\ermano\tld investigation\tld-cppimp\mftracker\bb_predict.cpp
+	"median.h"
+	"bb_predict.h"
+	"math.h"
+
+1336833068 d:\ermano\tld investigation\tld-cppimp\mftracker\median.h
+
+1336833068 d:\ermano\tld investigation\tld-cppimp\mftracker\bb_predict.h
+	<opencv/cv.h>
+
+1349093104 source:d:\ermano\tld investigation\tld-cppimp\mftracker\fbtrack.cpp
+	"bb.h"
+	"bb_predict.h"
+	"median.h"
+	"stdio.h"
+	"lk.h"
+
+1349093104 d:\ermano\tld investigation\tld-cppimp\mftracker\lk.h
+	"opencv/cv.h"
+
+1349093104 source:d:\ermano\tld investigation\tld-cppimp\mftracker\lk.cpp
+	"lk.h"
+	<opencv/cv.h>
+	<opencv2/highgui/highgui.hpp>
+	<math.h>
+	<stdio.h>
+
+1336833068 source:d:\ermano\tld investigation\tld-cppimp\mftracker\median.cpp
+	<stdlib.h>
+	<string.h>
+	"median.h"
+
+1349440188 d:\ermano\tld investigation\tld-cppimp\normalizedpatch.h
+	"boundingbox.h"
+
+1349440189 source:d:\ermano\tld investigation\tld-cppimp\clusterer.cpp
+	"clusterer.h"
+
+1348756940 d:\ermano\tld investigation\tld-cppimp\clusterer.h
+	"boundingbox.h"
+	"disjointset.h"
+
+1348757140 d:\ermano\tld investigation\tld-cppimp\disjointset.h
+	<vector>
+
+1349100268 d:\ermano\tld investigation\tld-cppimp\ffclassifier.h
+	"fern.h"
+
+1349440188 d:\ermano\tld investigation\tld-cppimp\nnclassifier.h
+	"includes.h"
+	"normalizedpatch.h"
+
+1348756256 source:d:\ermano\tld investigation\tld-cppimp\disjointset.cpp
+	"disjointset.h"
+
+1349100275 source:d:\ermano\tld investigation\tld-cppimp\ffclassifier.cpp
+	"ffclassifier.h"
+
+1349440189 source:d:\ermano\tld investigation\tld-cppimp\nnclassifier.cpp
+	"nnclassifier.h"
+
+1349440189 source:d:\ermano\tld investigation\tld-cppimp\normalizedpatch.cpp
+	"normalizedpatch.h"
+
+1348847368 source:c:\users\ermano\desktop\tld-cppimp\medianflowtracker.cpp
+	"MedianFlowTracker.h"
+	"fbtrack.h"
+	<cmath>
+
+1348770886 c:\users\ermano\desktop\tld-cppimp\medianflowtracker.h
+	<opencv/cv.h>
+
+1341269731 c:\opencv\build\include\opencv\cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/video/tracking.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/flann/flann.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/legacy/compat.hpp"
+	"opencv2/core/internal.hpp"
+
+1341269824 c:\opencv\build\include\opencv2\imgproc\imgproc_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/types_c.h"
+
+1341269833 c:\opencv\build\include\opencv2\video\tracking.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+
+1341269828 c:\opencv\build\include\opencv2\features2d\features2d.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+	<limits>
+
+1341269819 c:\opencv\build\include\opencv2\flann\miniflann.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/flann/defines.h"
+
+1341269818 c:\opencv\build\include\opencv2\flann\defines.h
+	"config.h"
+
+1341269818 c:\opencv\build\include\opencv2\flann\config.h
+
+1341269818 c:\opencv\build\include\opencv2\flann\flann.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/flann/flann_base.hpp"
+	"opencv2/flann/miniflann.hpp"
+
+1341269819 c:\opencv\build\include\opencv2\flann\flann_base.hpp
+	<vector>
+	<string>
+	<cassert>
+	<cstdio>
+	"general.h"
+	"matrix.h"
+	"params.h"
+	"saving.h"
+	"all_indices.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\general.h
+	"defines.h"
+	<stdexcept>
+	<cassert>
+
+1341269819 c:\opencv\build\include\opencv2\flann\matrix.h
+	<stdio.h>
+	"general.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\params.h
+	"any.h"
+	"general.h"
+	<iostream>
+	<map>
+
+1341269819 c:\opencv\build\include\opencv2\flann\any.h
+	"defines.h"
+	<stdexcept>
+	<ostream>
+	<typeinfo>
+
+1341269819 c:\opencv\build\include\opencv2\flann\saving.h
+	<cstring>
+	<vector>
+	"general.h"
+	"nn_index.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\nn_index.h
+	<string>
+	"general.h"
+	"matrix.h"
+	"result_set.h"
+	"params.h"
+
+1341269818 c:\opencv\build\include\opencv2\flann\result_set.h
+	<algorithm>
+	<cstring>
+	<iostream>
+	<limits>
+	<set>
+	<vector>
+
+1341269819 c:\opencv\build\include\opencv2\flann\all_indices.h
+	"general.h"
+	"nn_index.h"
+	"kdtree_index.h"
+	"kdtree_single_index.h"
+	"kmeans_index.h"
+	"composite_index.h"
+	"linear_index.h"
+	"hierarchical_clustering_index.h"
+	"lsh_index.h"
+	"autotuned_index.h"
+
+1341269818 c:\opencv\build\include\opencv2\flann\kdtree_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	"general.h"
+	"nn_index.h"
+	"dynamic_bitset.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1341269818 c:\opencv\build\include\opencv2\flann\dynamic_bitset.h
+	<boost/dynamic_bitset.hpp>
+	<limits.h>
+	"dist.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\dist.h
+	<cmath>
+	<cstdlib>
+	<string.h>
+	<stdint.h>
+	"defines.h"
+	"arm_neon.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\heap.h
+	<algorithm>
+	<vector>
+
+1341269819 c:\opencv\build\include\opencv2\flann\allocator.h
+	<stdlib.h>
+	<stdio.h>
+
+1341269819 c:\opencv\build\include\opencv2\flann\random.h
+	<algorithm>
+	<cstdlib>
+	<vector>
+	"general.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\kdtree_single_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	"general.h"
+	"nn_index.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1341269818 c:\opencv\build\include\opencv2\flann\kmeans_index.h
+	<algorithm>
+	<string>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"general.h"
+	"nn_index.h"
+	"dist.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+	"logger.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\logger.h
+	<stdio.h>
+	<stdarg.h>
+	"defines.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\composite_index.h
+	"general.h"
+	"nn_index.h"
+	"kdtree_index.h"
+	"kmeans_index.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\linear_index.h
+	"general.h"
+	"nn_index.h"
+
+1341269818 c:\opencv\build\include\opencv2\flann\hierarchical_clustering_index.h
+	<algorithm>
+	<string>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"general.h"
+	"nn_index.h"
+	"dist.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\lsh_index.h
+	<algorithm>
+	<cassert>
+	<cstring>
+	<map>
+	<vector>
+	"general.h"
+	"nn_index.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"lsh_table.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\lsh_table.h
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<limits.h>
+	<unordered_map>
+	<map>
+	<math.h>
+	<stddef.h>
+	"dynamic_bitset.h"
+	"matrix.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\autotuned_index.h
+	"general.h"
+	"nn_index.h"
+	"ground_truth.h"
+	"index_testing.h"
+	"sampling.h"
+	"kdtree_index.h"
+	"kdtree_single_index.h"
+	"kmeans_index.h"
+	"composite_index.h"
+	"linear_index.h"
+	"logger.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\ground_truth.h
+	"dist.h"
+	"matrix.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\index_testing.h
+	<cstring>
+	<cassert>
+	<cmath>
+	"matrix.h"
+	"nn_index.h"
+	"result_set.h"
+	"logger.h"
+	"timer.h"
+
+1341269819 c:\opencv\build\include\opencv2\flann\timer.h
+	<time.h>
+
+1341269819 c:\opencv\build\include\opencv2\flann\sampling.h
+	"matrix.h"
+	"random.h"
+
+1341269825 c:\opencv\build\include\opencv2\calib3d\calib3d.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/features2d/features2d.hpp"
+
+1341269826 c:\opencv\build\include\opencv2\objdetect\objdetect.hpp
+	"opencv2/core/core.hpp"
+	<map>
+	<deque>
+
+1341269826 c:\opencv\build\include\opencv2\legacy\compat.hpp
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/types_c.h"
+	<math.h>
+	<string.h>
+
+1341269801 c:\opencv\build\include\opencv2\core\internal.hpp
+	<vector>
+	<windows.h>
+	<pthread.h>
+	"ipp.h"
+	"emmintrin.h"
+	"pmmintrin.h"
+	"tmmintrin.h"
+	"arm_neon.h"
+	"tbb/tbb_stddef.h"
+	"tbb/tbb.h"
+	"tbb/task.h"
+	<Eigen/Core>
+	"opencv2/core/eigen.hpp"
+	<malloc.h>
+	<alloca.h>
+	<stdlib.h>
+
+1341269801 c:\opencv\build\include\opencv2\core\eigen.hpp
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+
+1336836668 c:\users\ermano\desktop\tld-cppimp\mftracker\fbtrack.h
+	<opencv/cv.h>
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\boundingbox.cpp
+	"boundingbox.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\boundingbox.h
+	"includes.h"
+	"normalizedpatch.h"
+
+1351196062 c:\users\ermano\desktop\tld-cppimp\includes.h
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<iostream>
+	<fstream>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<cmath>
+	<sstream>
+	<algorithm>
+	<windows.h>
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\normalizedpatch.h
+	"boundingbox.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\clusterer.cpp
+	"clusterer.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\clusterer.h
+	"boundingbox.h"
+	"disjointset.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\disjointset.h
+	<vector>
+
+1351196062 source:c:\users\ermano\desktop\tld-cppimp\detector.cpp
+	"detector.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\detector.h
+	<vector>
+	"includes.h"
+	"boundingbox.h"
+	"ffclassifier.h"
+	"nnclassifier.h"
+	"clusterer.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\ffclassifier.h
+	"fern.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\fern.h
+	"includes.h"
+	"twobitbp.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\twobitbp.h
+	"feature.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\feature.h
+	"includes.h"
+	"boundingbox.h"
+	"util.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\util.h
+	"includes.h"
+	"boundingbox.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\nnclassifier.h
+	"includes.h"
+	"normalizedpatch.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\disjointset.cpp
+	"disjointset.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\feature.cpp
+	"feature.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\fern.cpp
+	"fern.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\ffclassifier.cpp
+	"ffclassifier.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\main.cpp
+	"main_skeleton.h"
+	"params.h"
+	"detector.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\main_skeleton.h
+	"includes.h"
+	"util.h"
+	"Predator.h"
+
+1348770886 c:\users\ermano\desktop\tld-cppimp\trainer.h
+	"includes.h"
+	"ffclassifier.h"
+
+1351196263 source:c:\users\ermano\desktop\tld-cppimp\main_skeleton.cpp
+	"main_skeleton.h"
+
+1336836668 source:c:\users\ermano\desktop\tld-cppimp\mftracker\bb.cpp
+	"bb.h"
+
+1336836668 c:\users\ermano\desktop\tld-cppimp\mftracker\bb.h
+
+1336836668 source:c:\users\ermano\desktop\tld-cppimp\mftracker\bb_predict.cpp
+	"median.h"
+	"bb_predict.h"
+	"math.h"
+
+1336836668 c:\users\ermano\desktop\tld-cppimp\mftracker\median.h
+
+1336836668 c:\users\ermano\desktop\tld-cppimp\mftracker\bb_predict.h
+	<opencv/cv.h>
+
+1336836668 source:c:\users\ermano\desktop\tld-cppimp\mftracker\fbtrack.cpp
+	"bb.h"
+	"bb_predict.h"
+	"median.h"
+	"stdio.h"
+	"lk.h"
+
+1336836668 c:\users\ermano\desktop\tld-cppimp\mftracker\lk.h
+	"opencv/cv.h"
+
+1336836668 source:c:\users\ermano\desktop\tld-cppimp\mftracker\lk.cpp
+	"lk.h"
+	<opencv/cv.h>
+	<opencv2/highgui/highgui.hpp>
+	<math.h>
+	<stdio.h>
+
+1336836668 source:c:\users\ermano\desktop\tld-cppimp\mftracker\median.cpp
+	<stdlib.h>
+	<string.h>
+	"median.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\nnclassifier.cpp
+	"nnclassifier.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\normalizedpatch.cpp
+	"normalizedpatch.h"
+
+1349375615 source:c:\users\ermano\desktop\tld-cppimp\trainer.cpp
+	"trainer.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\twobitbp.cpp
+	"twobitbp.h"
+
+1349357970 source:c:\users\ermano\desktop\tld-cppimp\util.cpp
+	"util.h"
+
+1348809130 source:c:\users\ermano\desktop\tld-cppimp\src\predator.cpp
+	"Predator.h"
+
+1348809130 c:\users\ermano\desktop\tld-cppimp\include\predator.h
+
+1351196062 source:c:\users\ermano\desktop\tld-cppimp\predator.cpp
+	"Predator.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\predator.h
+	"includes.h"
+	"MedianFlowTracker.h"
+	"detector.h"
+	"util.h"
+	"params.h"
+
+1349440188 source:d:\ermano\tld investigation\tld-cppimp\predator.cpp
+	"Predator.h"
+
+1349440189 d:\ermano\tld investigation\tld-cppimp\predator.h
+	"includes.h"
+	"MedianFlowTracker.h"
+	"detector.h"
+	"util.h"
+
+1351106617 source:e:\workspace\tldcpp-imp\medianflowtracker.cpp
+	"MedianFlowTracker.h"
+	"fbtrack.h"
+	<cmath>
+
+1351106619 e:\workspace\tldcpp-imp\medianflowtracker.h
+	<opencv/cv.h>
+
+1351106619 e:\workspace\tldcpp-imp\mftracker\fbtrack.h
+	<opencv/cv.h>
+
+1351195035 source:e:\workspace\tldcpp-imp\predator.cpp
+	"Predator.h"
+
+1351195894 e:\workspace\tldcpp-imp\predator.h
+	"includes.h"
+	"MedianFlowTracker.h"
+	"detector.h"
+	"tld_util.h"
+	"params.h"
+
+1351188298 e:\workspace\tldcpp-imp\includes.h
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<iostream>
+	<fstream>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<cmath>
+	<sstream>
+	<algorithm>
+	<windows.h>
+
+1351190011 e:\workspace\tldcpp-imp\detector.h
+	<vector>
+	"includes.h"
+	"boundingbox.h"
+	"ffclassifier.h"
+	"nnclassifier.h"
+	"clusterer.h"
+
+1351195894 e:\workspace\tldcpp-imp\boundingbox.h
+	"includes.h"
+	"normalizedpatch.h"
+
+1351195014 e:\workspace\tldcpp-imp\normalizedpatch.h
+	"boundingbox.h"
+
+1351109339 e:\workspace\tldcpp-imp\ffclassifier.h
+	"fern.h"
+
+1351109322 e:\workspace\tldcpp-imp\fern.h
+	"includes.h"
+	"twobitbp.h"
+
+1351109357 e:\workspace\tldcpp-imp\twobitbp.h
+	"feature.h"
+
+1351195894 e:\workspace\tldcpp-imp\feature.h
+	"includes.h"
+	"boundingbox.h"
+	"tld_util.h"
+
+1351113107 e:\workspace\tldcpp-imp\util.h
+	"includes.h"
+	"boundingbox.h"
+
+1351109488 e:\workspace\tldcpp-imp\nnclassifier.h
+	"includes.h"
+	"normalizedpatch.h"
+
+1351190249 e:\workspace\tldcpp-imp\clusterer.h
+	"boundingbox.h"
+	"disjointset.h"
+
+1351109270 e:\workspace\tldcpp-imp\disjointset.h
+	<vector>
+
+1351194600 source:e:\workspace\tldcpp-imp\boundingbox.cpp
+	"boundingbox.h"
+
+1351190233 source:e:\workspace\tldcpp-imp\clusterer.cpp
+	"clusterer.h"
+
+1351190357 source:e:\workspace\tldcpp-imp\detector.cpp
+	"detector.h"
+
+1351109256 source:e:\workspace\tldcpp-imp\disjointset.cpp
+	"disjointset.h"
+
+1351109287 source:e:\workspace\tldcpp-imp\feature.cpp
+	"feature.h"
+
+1351109314 source:e:\workspace\tldcpp-imp\fern.cpp
+	"fern.h"
+
+1351109140 source:e:\workspace\tldcpp-imp\ffclassifier.cpp
+	"ffclassifier.h"
+
+1351188186 source:e:\workspace\tldcpp-imp\main.cpp
+	"main_skeleton.h"
+	"params.h"
+	"detector.h"
+
+1351195894 e:\workspace\tldcpp-imp\main_skeleton.h
+	"includes.h"
+	"tld_util.h"
+	"Predator.h"
+
+1351110217 e:\workspace\tldcpp-imp\trainer.h
+	"includes.h"
+	"ffclassifier.h"
+
+1359404900 source:e:\workspace\tldcpp-imp\main_skeleton.cpp
+	"main_skeleton.h"
+
+1351106619 source:e:\workspace\tldcpp-imp\mftracker\bb.cpp
+	"bb.h"
+
+1351106619 e:\workspace\tldcpp-imp\mftracker\bb.h
+
+1351106619 source:e:\workspace\tldcpp-imp\mftracker\bb_predict.cpp
+	"median.h"
+	"bb_predict.h"
+	"math.h"
+
+1351106619 e:\workspace\tldcpp-imp\mftracker\median.h
+
+1351106619 e:\workspace\tldcpp-imp\mftracker\bb_predict.h
+	<opencv/cv.h>
+
+1351106619 source:e:\workspace\tldcpp-imp\mftracker\fbtrack.cpp
+	"bb.h"
+	"bb_predict.h"
+	"median.h"
+	"stdio.h"
+	"lk.h"
+
+1351106619 e:\workspace\tldcpp-imp\mftracker\lk.h
+	"opencv/cv.h"
+
+1351106619 source:e:\workspace\tldcpp-imp\mftracker\lk.cpp
+	"lk.h"
+	<opencv/cv.h>
+	<opencv2/highgui/highgui.hpp>
+	<math.h>
+	<stdio.h>
+
+1351106619 source:e:\workspace\tldcpp-imp\mftracker\median.cpp
+	<stdlib.h>
+	<string.h>
+	"median.h"
+
+1351109476 source:e:\workspace\tldcpp-imp\nnclassifier.cpp
+	"nnclassifier.h"
+
+1351195049 source:e:\workspace\tldcpp-imp\normalizedpatch.cpp
+	"normalizedpatch.h"
+
+1351110219 source:e:\workspace\tldcpp-imp\trainer.cpp
+	"trainer.h"
+
+1351109371 source:e:\workspace\tldcpp-imp\twobitbp.cpp
+	"twobitbp.h"
+
+1351110219 source:e:\workspace\tldcpp-imp\util.cpp
+	"util.h"
+
+1368210660 e:\workspace\tldcpp-imp\params.h
+	<cstdio>
+	<string>
+	<cstdlib>
+	"includes.h"
+
+1368210641 source:e:\workspace\tldcpp-imp\params.cpp
+	"params.h"
+
+1351196063 c:\users\ermano\desktop\tld-cppimp\params.h
+	<cstdio>
+	<string>
+	<cstdlib>
+	"includes.h"
+
+1351196063 source:c:\users\ermano\desktop\tld-cppimp\params.cpp
+	"params.h"
+
+1351195256 source:e:\workspace\tldcpp-imp\tld_util.cpp
+	"tld_util.h"
+
+1351109507 e:\workspace\tldcpp-imp\tld_util.h
+	"includes.h"
+	"boundingbox.h"
+

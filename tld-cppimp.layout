@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="MedianFlowTracker.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1787" topLine="33" />
+	</File>
+	<File name="MedianFlowTracker.h" open="0" top="0" tabpos="2">
+		<Cursor position="796" topLine="1" />
+	</File>
+	<File name="Predator.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="458" topLine="3" />
+	</File>
+	<File name="Predator.h" open="1" top="1" tabpos="1">
+		<Cursor position="721" topLine="34" />
+	</File>
+	<File name="boundingbox.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="3487" topLine="130" />
+	</File>
+	<File name="boundingbox.h" open="0" top="0" tabpos="4">
+		<Cursor position="123" topLine="5" />
+	</File>
+	<File name="clusterer.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="186" topLine="0" />
+	</File>
+	<File name="clusterer.h" open="0" top="0" tabpos="18">
+		<Cursor position="683" topLine="12" />
+	</File>
+	<File name="detector.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="2673" topLine="91" />
+	</File>
+	<File name="detector.h" open="0" top="0" tabpos="2">
+		<Cursor position="783" topLine="15" />
+	</File>
+	<File name="disjointset.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1371" topLine="29" />
+	</File>
+	<File name="disjointset.h" open="0" top="0" tabpos="5">
+		<Cursor position="503" topLine="0" />
+	</File>
+	<File name="feature.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="455" topLine="0" />
+	</File>
+	<File name="feature.h" open="0" top="0" tabpos="0">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="fern.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="1655" topLine="38" />
+	</File>
+	<File name="fern.h" open="0" top="0" tabpos="17">
+		<Cursor position="658" topLine="0" />
+	</File>
+	<File name="ffclassifier.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="430" topLine="0" />
+	</File>
+	<File name="ffclassifier.h" open="0" top="0" tabpos="14">
+		<Cursor position="854" topLine="0" />
+	</File>
+	<File name="includes.h" open="0" top="0" tabpos="3">
+		<Cursor position="769" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1113" topLine="0" />
+	</File>
+	<File name="main_skeleton.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="547" topLine="0" />
+	</File>
+	<File name="main_skeleton.h" open="0" top="0" tabpos="13">
+		<Cursor position="95" topLine="0" />
+	</File>
+	<File name="mftracker\bb.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3375" topLine="20" />
+	</File>
+	<File name="mftracker\bb.h" open="0" top="0" tabpos="0">
+		<Cursor position="2041" topLine="32" />
+	</File>
+	<File name="mftracker\bb_predict.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2735" topLine="96" />
+	</File>
+	<File name="mftracker\bb_predict.h" open="0" top="0" tabpos="0">
+		<Cursor position="2060" topLine="0" />
+	</File>
+	<File name="mftracker\fbtrack.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2490" topLine="62" />
+	</File>
+	<File name="mftracker\fbtrack.h" open="0" top="0" tabpos="0">
+		<Cursor position="818" topLine="13" />
+	</File>
+	<File name="mftracker\lk.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="7582" topLine="213" />
+	</File>
+	<File name="mftracker\lk.h" open="0" top="0" tabpos="0">
+		<Cursor position="1160" topLine="9" />
+	</File>
+	<File name="mftracker\median.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="3220" topLine="4" />
+	</File>
+	<File name="mftracker\median.h" open="0" top="0" tabpos="0">
+		<Cursor position="826" topLine="35" />
+	</File>
+	<File name="nnclassifier.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="438" topLine="63" />
+	</File>
+	<File name="nnclassifier.h" open="0" top="0" tabpos="8">
+		<Cursor position="466" topLine="0" />
+	</File>
+	<File name="normalizedpatch.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="466" topLine="0" />
+	</File>
+	<File name="normalizedpatch.h" open="0" top="0" tabpos="10">
+		<Cursor position="315" topLine="0" />
+	</File>
+	<File name="params.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1326" topLine="12" />
+	</File>
+	<File name="params.h" open="1" top="0" tabpos="5">
+		<Cursor position="778" topLine="18" />
+	</File>
+	<File name="tld_util.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="183" topLine="0" />
+	</File>
+	<File name="tld_util.h" open="0" top="0" tabpos="11">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="twobitbp.cpp" open="0" top="0" tabpos="24">
+		<Cursor position="870" topLine="21" />
+	</File>
+	<File name="twobitbp.h" open="0" top="0" tabpos="14">
+		<Cursor position="322" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
