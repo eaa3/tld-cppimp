@@ -1,4 +1,0 @@
-/Users/ermanoarruda/Documents/cmake-ws/izakObjFinder/build/CMakeFiles/izakObjFinder.dir
-/Users/ermanoarruda/Documents/cmake-ws/izakObjFinder/build/CMakeFiles/mftracker.dir
-/Users/ermanoarruda/Documents/cmake-ws/izakObjFinder/build/CMakeFiles/predator.dir
-/Users/ermanoarruda/Documents/cmake-ws/izakObjFinder/build/CMakeFiles/test.dir
