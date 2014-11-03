@@ -31,6 +31,9 @@ namespace tld {
 
 MedianFlowTracker::MedianFlowTracker() {
 	trackerBB = NULL;
+	this->fell = false;
+	this->magnitude = 0;
+	this->cosine = 0;
 }
 
 MedianFlowTracker::~MedianFlowTracker() {
@@ -40,6 +43,7 @@ MedianFlowTracker::~MedianFlowTracker() {
 void MedianFlowTracker::cleanPreviousData() {
 	delete trackerBB;
 	trackerBB = NULL;
+
 }
 
 void MedianFlowTracker::track(Mat prevMat, Mat currMat, Rect* prevBB) {
@@ -53,8 +57,10 @@ void MedianFlowTracker::track(Mat prevMat, Mat currMat, Rect* prevBB) {
 		IplImage prevImg = prevMat;
 		IplImage currImg = currMat;
 
-		int success = fbtrack(&prevImg, &currImg, bb_tracker,bb_tracker,&scale);
-
+		float cosine = 0, magnitude = 0;
+		
+		int success = fbtrack(&prevImg, &currImg, bb_tracker,bb_tracker,&scale, &cosine, &magnitude);
+		
 		//Extract subimage
 		float x,y,w,h;
 		x = floor(bb_tracker[0]+0.5);
@@ -67,8 +73,15 @@ void MedianFlowTracker::track(Mat prevMat, Mat currMat, Rect* prevBB) {
 			//Leave it empty
 		} else {
 			trackerBB = new Rect(x,y,w,h);
-			printf("BBinside %d %d %d %d\n", trackerBB->x, trackerBB->y, trackerBB->width, trackerBB->height);
+			//printf("BBinside %d %d %d %d\n", trackerBB->x, trackerBB->y, trackerBB->width, trackerBB->height);
 		}
+
+		this->cosine = cosine;
+		this->magnitude = magnitude;
+		
+
+		
+
 	}
 }
 

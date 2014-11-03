@@ -35,6 +35,8 @@ namespace tld {
 class MedianFlowTracker {
 public:
 	Rect* trackerBB;
+	bool fell;
+	float cosine, magnitude;
 
 	MedianFlowTracker();
 	virtual ~MedianFlowTracker();

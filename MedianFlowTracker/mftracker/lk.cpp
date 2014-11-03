@@ -182,6 +182,7 @@ int trackLK(IplImage *imgI, IplImage *imgJ, float ptsI[], int nPtsI,
   pyr_sz = cvSize(imgI->width + 8, imgI->height / 3);
   PYR[I] = cvCreateImage(pyr_sz, IPL_DEPTH_32F, 1);
   PYR[J] = cvCreateImage(pyr_sz, IPL_DEPTH_32F, 1);
+  
 
   // Points
   if (nPtsJ != nPtsI)
@@ -205,7 +206,7 @@ int trackLK(IplImage *imgI, IplImage *imgJ, float ptsI[], int nPtsI,
     points[2][i].x = ptsI[2 * i];
     points[2][i].y = ptsI[2 * i + 1];
   }
-
+  
   //lucas kanade track
   cvCalcOpticalFlowPyrLK(imgI, imgJ, PYR[I], PYR[J], points[0], points[1],
       nPtsI, cvSize(win_size_lk, win_size_lk), level, status, 0, cvTermCriteria(
@@ -217,7 +218,7 @@ int trackLK(IplImage *imgI, IplImage *imgJ, float ptsI[], int nPtsI,
       nPtsI, cvSize(win_size_lk, win_size_lk), level, statusBacktrack, 0, cvTermCriteria(
           CV_TERMCRIT_ITER | CV_TERMCRIT_EPS, 20, 0.03),
       CV_LKFLOW_INITIAL_GUESSES | CV_LKFLOW_PYR_A_READY | CV_LKFLOW_PYR_B_READY);
-
+  
     for (i = 0; i < nPtsI; i++)
     {
       if (status[i] && statusBacktrack[i])

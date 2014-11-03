@@ -55,7 +55,7 @@ float getBbHeight(float* bb)
  * to every point. Then the Median of the relative Values is used.
  */
 int predictbb(float *bb0, CvPoint2D32f* pt0, CvPoint2D32f* pt1, int nPts,
-    float *bb1, float* shift)
+    float *bb1, float* shift, float* cosine, float* magnitude)
 {
   float* ofx = (float*) malloc(sizeof(float) * nPts);
   float* ofy = (float*) malloc(sizeof(float) * nPts);
@@ -112,6 +112,14 @@ int predictbb(float *bb0, CvPoint2D32f* pt0, CvPoint2D32f* pt1, int nPts,
   //return absolute scale change
   //  shift[0] = s0;
   //  shift[1] = s1;
+
+  float norm = sqrt(dx*dx + dy*dy);
+  float c = dy/norm;
+
+  if( cosine )
+    *cosine = c;
+  if( magnitude )
+    *magnitude = norm;
 
   return 1;
 }

@@ -47,8 +47,10 @@
  * @param scaleshift returns relative scale change of bb
  */
 int fbtrack(IplImage *imgI, IplImage *imgJ, float* bb, float* bbnew,
-    float* scaleshift)
+    float* scaleshift, float* cosine, float* magnitude)
 {
+
+
   char level = 5;
   int numM = 10;
   int numN = 10;
@@ -75,9 +77,13 @@ int fbtrack(IplImage *imgI, IplImage *imgJ, float* bb, float* bbnew,
   //getFilledBBPoints(bb, numM, numN, 5, &ptTracked);
   memcpy(ptTracked, pt, sizeof(float) * sizePointsArray);
 
+
   initImgs();
+  
   trackLK(imgI, imgJ, pt, nPoints, ptTracked, nPoints, level, fb, ncc, status);
   initImgs();
+
+
   //  char* status = *statusP;
   nlkPoints = 0;
   for (i = 0; i < nPoints; i++)
@@ -134,7 +140,7 @@ int fbtrack(IplImage *imgI, IplImage *imgJ, float* bb, float* bbnew,
   //      nRealPoints);
   //  showIplImage(imgI);
 
-  predictbb(bb, startPoints, targetPoints, nAfterFbUsage, bbnew, scaleshift);
+  predictbb(bb, startPoints, targetPoints, nAfterFbUsage, bbnew, scaleshift, cosine, magnitude);
   /*printf("bbnew: %f,%f,%f,%f\n", bbnew[0], bbnew[1], bbnew[2], bbnew[3]);
    printf("relative scale: %f \n", scaleshift[0]);*/
   //show picture with tracked bb

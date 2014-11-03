@@ -58,7 +58,7 @@
  *              (not validated)
  */
 int predictbb(float *bb0, CvPoint2D32f* pt0, CvPoint2D32f* pt1, int nPts,
-    float*bb1, float*shift);
+    float*bb1, float*shift, float* cosine = NULL, float* magnitude = NULL);
 
 /***********************************************************
  * EPILOGUE
