@@ -1,0 +1,2 @@
+/usr/bin/ar cr libmftracker.a  CMakeFiles/mftracker.dir/MedianFlowTracker/mftracker/bb.cpp.o CMakeFiles/mftracker.dir/MedianFlowTracker/mftracker/bb_predict.cpp.o CMakeFiles/mftracker.dir/MedianFlowTracker/mftracker/fbtrack.cpp.o CMakeFiles/mftracker.dir/MedianFlowTracker/mftracker/lk.cpp.o CMakeFiles/mftracker.dir/MedianFlowTracker/mftracker/median.cpp.o CMakeFiles/mftracker.dir/MedianFlowTracker/MedianFlowTracker.cpp.o
+/usr/bin/ranlib libmftracker.a
