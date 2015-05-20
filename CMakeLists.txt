@@ -72,6 +72,7 @@ set(IZAK_OBJ_FINDER_SRC
 						src/Predator.cpp 
 						src/tld_util.cpp 
 						src/twobitbp.cpp 
+						src/fourbitbp.cpp 
 						src/featureTracker.cpp
 						src/variancefilter.cpp
 						)
@@ -89,6 +90,7 @@ set(IZAK_OBJ_FINDER_INC
 						include/Predator.h 
 						include/tld_util.h 
 						include/twobitbp.h 
+						include/fourbitbp.h 
 						include/serializable.h 
 						include/featureTracker.h 
 						include/variancefilter.h

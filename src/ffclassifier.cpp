@@ -79,4 +79,76 @@ bool FFClassifier::filter(Mat& integralImage,  BoundingBox& patch)
     return post >= this->threshold;
 }
 
+//FFClassifier2
+
+FFClassifier2::FFClassifier2(int nFerns, int nNodes, float minScale, float maxScale, float threshold)
+{
+    this->nFerns = nFerns;
+    this->nNodes = nNodes;
+    this->minScale = minScale;
+    this->maxScale = maxScale;
+    this->threshold = threshold;
+
+    this->init(nFerns, nNodes, minScale, maxScale);
+
+}
+
+FFClassifier2::~FFClassifier2()
+{
+    this->release();
+}
+
+
+void FFClassifier2::init(int nFerns, int nNodes, float minScale, float maxScale)
+{
+    this->ferns.resize(nFerns);
+
+    for(int i = 0; i < this->ferns.size(); i++) this->ferns[i] = new Fern2(nNodes, minScale, maxScale);
+}
+
+void FFClassifier2::release()
+{
+    for(int i = 0; i < this->ferns.size(); i++)
+    {
+        delete ferns[i];
+    } 
+
+    this->ferns.clear();
+
+}
+
+
+
+void FFClassifier2::train( unsigned char c1, unsigned char c2, int positive)
+{
+    float post = 0.0f;
+
+    post = classify(c1, c2);
+
+    for(int i = 0; i < this->ferns.size(); i++)
+    {
+        this->ferns[i]->train(c1, c2, positive);
+    }
+
+}
+
+float FFClassifier2::classify( unsigned char c1, unsigned char c2)
+{
+    float sum = 0.0f;
+
+    for(int i = 0; i < this->ferns.size(); i++)
+    {
+        sum += this->ferns[i]->classify(c1, c2);
+    }
+
+    return sum/float(this->ferns.size());
+}
+
+bool FFClassifier2::filter(unsigned char c1, unsigned char c2)
+{
+    float post = classify(c1, c2);
+
+    return post >= this->threshold;
+}
+
 }

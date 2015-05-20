@@ -14,6 +14,7 @@ class Feature : public Serializable
         float xp, yp, wp, hp;
 
         Feature();
+        Feature(float xp, float yp, float wp, float hp) : xp(xp), yp(yp), wp(wp), hp(hp) {}
         Feature(const Feature& other) : xp(other.xp), yp(other.yp), wp(other.wp), hp(other.hp) {}
         Feature(float minScale, float maxScale);
         virtual ~Feature();
